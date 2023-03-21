@@ -2,10 +2,14 @@ import React from 'react';
 
 const styles = {
     about: {
-      margin: 20,
+      margin: 150,
       background: '#e8eaf6',
+      borderRadius: 50,
+      padding: 1
     },
     heading: {
+      borderRadius: 10,
+      margin: 50,
       background: '#3f51b5',
       minHeight: 50,
       lineHeight: 3.5,
@@ -22,6 +26,8 @@ function About() {
     return (
       <div style={styles.about}>
         <div style={styles.heading}>About Me</div>
+        <img src= {"./assets/linux.png"}  alt="React" />
+        
         <div style={styles.content}>
           `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
