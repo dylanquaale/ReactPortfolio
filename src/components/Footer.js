@@ -1,79 +1,3 @@
-// import React from 'react';
-
-// const styles = {
-//     footer: {
-//       display: 'flex',
-//       marginTop: 1000,
-//       background: 'red',
-//       lineHeight: 5
-//     },
-//    a: {
-//     display: 'inline-block',
-//     position: 'absolute',
-//     flexDirection: 'column'
-//    },
-//     content: {
-//         display: 'inline-block',
-//       padding: 20,
-//       marginTop: '1000'
-//     },
-//   };
-
-//   // noopener/noreferrer/ for security reasons BCS helped give me this 
-//   function Footer() {
-//     return (
-//       <div style={styles.footer}>
-     
-//         <div style={styles.content}>
-       
-//         <footer className="logo">
-// 			<div>
-// 				<a
-// 					href="https://github.com/dylanquaale/ReactPortfolio"
-// 					target="none"
-// 					rel="noopener noreferrer"
-// 				>
-// 					<img
-// 						src={require("../assets/github-logo.png")}
-// 						alt="Github"
-// 						className="logo"
-// 					></img>
-// 				</a>
-// 			</div>
-// 			<div>
-// 				<a
-// 					href="https://www.linkedin.com/in/dylan-quaale-2885881a4/"
-// 					target="none"
-// 					rel="noopener noreferrer"
-// 				>
-// 					<img
-// 						src={require("../assets/linkedin-logo.png")}
-// 						alt="LinkedIn"
-// 						className="logo"
-// 					></img>
-// 				</a>
-// 			</div>
-// 			<div>
-// 				<a
-// 					href="https://twitter.com/DylanRQuaale"
-// 					target="none"
-// 					rel="noopener noreferrer"
-// 				>
-// 					<img
-// 						src={require("../assets/twitter-logo.png")}
-// 						alt="Twitter"
-// 						className="logo"
-// 					></img>
-// 				</a>
-// 			</div>
-// 		</footer>
-//         </div>
-//         </div>
-//     );
-//   }
-
-// export default Footer;
-
 import React from 'react';
 import {
   MDBFooter,
@@ -82,8 +6,19 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
+
+
+const styles = {
+  footer: {
+    marginTop: 500
+  },
+
+};
+
+
 export default function Footer() {
   return (
+    <div style={styles.footer}>
     <MDBFooter className='bg-light text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
@@ -91,7 +26,7 @@ export default function Footer() {
             floating
             className='m-1'
             style={{ backgroundColor: '#3b5998' }}
-            href='#!'
+            href='https://www.facebook.com/dylan.quaale'
             role='button'
           >
             <MDBIcon fab icon='facebook-f' />
@@ -101,7 +36,7 @@ export default function Footer() {
             floating
             className='m-1'
             style={{ backgroundColor: '#55acee' }}
-            href='#!'
+            href='https://twitter.com/DylanRQuaale'
             role='button'
             
           >
@@ -112,19 +47,10 @@ export default function Footer() {
           <MDBBtn
             floating
             className='m-1'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
+            style={{ backgroundColor: '#ac2bac' }}
+            href='https://www.instagram.com/dylanquaale/'
             role='button'
           >
-            {/* <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#ac2bac' }}
-            href='#!'
-            role='button'
-          > */}
             <MDBIcon fab icon='instagram' />
           </MDBBtn>
 
@@ -132,7 +58,7 @@ export default function Footer() {
             floating
             className='m-1'
             style={{ backgroundColor: '#0082ca' }}
-            href='#!'
+            href='https://www.linkedin.com/in/dylan-quaale-2885881a4/'
             role='button'
           >
             <MDBIcon fab icon='linkedin-in' />
@@ -142,7 +68,7 @@ export default function Footer() {
             floating
             className='m-1'
             style={{ backgroundColor: '#333333' }}
-            href='#!'
+            href='https://github.com/dylanquaale/ReactPortfolio'
             role='button'
           >
             <MDBIcon fab icon='github' />
@@ -157,5 +83,6 @@ export default function Footer() {
         </a>
       </div>
     </MDBFooter>
+      </div>
   );
 }
