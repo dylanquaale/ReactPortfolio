@@ -2,37 +2,69 @@ import React from 'react';
 
 const styles = {
     footer: {
-        display: 'flex',
+    display: 'flex',
       marginTop: 1000,
       background: 'light gray',
+      height: 100,
+      textAlign: 'center',
+      marginBottom: '4rem'
     },
-    content: {
-        display: 'flex',
-      padding: 20,
-      marginTop: '1000'
-    },
+    // content: {
+    //     display: 'flex',
+    //   padding: 20,
+    //   marginTop: '1000'
+    // },
   };
 
   function Footer() {
     return (
       <div style={styles.footer}>
      
-        <div style={styles.content}>
-          `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-          illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-          voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-          quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-          eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-          voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-          corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-          Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-          quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-          voluptas nulla pariatur?`
+        {/* <div style={styles.content}> */}
+       
+        <footer className="footer">
+			<div>
+				<a
+					href="https://github.com/dylanquaale/ReactPortfolio"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require("../assets/github-logo.png")}
+						alt="Github"
+						className="logo"
+					></img>
+				</a>
+			</div>
+			<div>
+				<a
+					href="https://www.linkedin.com/in/dylan-quaale-2885881a4/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require("../assets/linkedin-logo.png")}
+						alt="LinkedIn"
+						className="logo"
+					></img>
+				</a>
+			</div>
+			<div>
+				<a
+					href="https://twitter.com/DylanRQuaale"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require("../assets/twitter-logo.png")}
+						alt="Twitter"
+						className="logo"
+					></img>
+				</a>
+			</div>
+		</footer>
         </div>
-      </div>
+    //   </div>
     );
   }
 
