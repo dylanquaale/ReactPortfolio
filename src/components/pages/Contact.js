@@ -18,7 +18,6 @@ const styles = {
     },
   };
 
-
   function Contact() {
     return (
       <div style={styles.contact}>
@@ -41,7 +40,5 @@ const styles = {
       </div>
     );
   }
-
-// }
 
 export default Contact;

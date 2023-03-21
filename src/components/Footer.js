@@ -1,27 +1,22 @@
 import React from 'react';
 
 const styles = {
-    about: {
-      margin: 20,
-      background: '#e8eaf6',
-    },
-    heading: {
-      background: '#3f51b5',
-      minHeight: 50,
-      lineHeight: 3.5,
-      fontSize: '1.2rem',
-      color: 'white',
-      padding: '0 20px',
+    footer: {
+        display: 'flex',
+      marginTop: 1000,
+      background: 'light gray',
     },
     content: {
+        display: 'flex',
       padding: 20,
+      marginTop: '1000'
     },
   };
 
-function About() {
+  function Footer() {
     return (
-      <div style={styles.about}>
-        <div style={styles.heading}>About Me</div>
+      <div style={styles.footer}>
+     
         <div style={styles.content}>
           `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
@@ -41,4 +36,6 @@ function About() {
     );
   }
 
-export default About;
+export default Footer;
+
+
