@@ -6,19 +6,8 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-
-
-const styles = {
-  footer: {
-    marginTop: 500
-  },
-
-};
-
-
 export default function Footer() {
   return (
-    <div style={styles.footer}>
     <MDBFooter className='bg-light text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
@@ -83,6 +72,5 @@ export default function Footer() {
         </a>
       </div>
     </MDBFooter>
-      </div>
   );
 }
