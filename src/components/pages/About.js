@@ -5,7 +5,9 @@ const styles = {
     about: {
       background: '#e8eaf6',
       borderRadius: 50,
-      padding: 1
+      padding: 2,
+      width: 380,
+      margin: 'auto'
     },
     heading: {
       borderRadius: 10,
@@ -16,6 +18,7 @@ const styles = {
       fontSize: '1.2rem',
       color: 'white',
       padding: '0 20px',
+      
     },
     content: {
       padding: 40,

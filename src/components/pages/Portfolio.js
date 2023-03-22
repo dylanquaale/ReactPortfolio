@@ -3,15 +3,29 @@ import aboutImg from "../../assets/linux.png";
 
 const styles = {
   style: {
-    display: "flex",
-    justifyContent: "center",
-    margin: "0 auto",
-    borderRadius: 100,
-    width: "40%",
+    // display: "flex",
+    // justifyContent: "center",
+    // margin: "0 auto",
+    // borderRadius: 100,
+    // width: "40%",
+    // background: "#e8eaf6",
+    // paddingTop: 20,
+    // paddingBottom: 20,
+    // position: "relative",
+
+    // borderRadius: 100,
+    // margin: 50,
+    // background: '#3f51b5',
+    // minHeight: 50,
+    // lineHeight: 3.5,
+    // fontSize: '1.2rem',
+    // color: 'white',
+    // padding: '0 20px',
+
+    display: 'flex',
     background: "#e8eaf6",
-    paddingTop: 20,
-    paddingBottom: 20,
-    position: "relative",
+    margin: '10%',
+   
   },
 };
 

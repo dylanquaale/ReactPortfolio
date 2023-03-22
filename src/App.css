@@ -5,6 +5,8 @@
   height: 100vh;
 }
 
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +29,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -42,6 +45,7 @@ Footer{
 .nav{
   display: flex;
   justify-content: flex-end;
+  flex-direction: row;
 }
 
 @keyframes App-logo-spin {
