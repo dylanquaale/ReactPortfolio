@@ -10,12 +10,9 @@ const styles = {
     borderRadius: 100,
     width: "40%",
     background: "orange",
-    padding: 20
-  },
-  for: {
-    borderRadius: 100,
-    width: "60%",
-    background: "orange",
+    padding: 20,
+    position: 'relative',
+    backgroundSize: 'contain'
   },
 };
 
