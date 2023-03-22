@@ -3,7 +3,6 @@ import aboutImg from '../../assets/linux.png'
 
 const styles = {
     about: {
-      margin: 200,
       background: '#e8eaf6',
       borderRadius: 50,
       padding: 1

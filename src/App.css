@@ -31,13 +31,17 @@
   color: #61dafb;
 }
 
-.nav{
-  display: flex;
-  justify-content: right;
+Footer{
+  margin-top: auto;
 }
 
-.nav h1 {
-  justify-content: left;
+.headerName{
+  display: flex;
+  flex-direction: row;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
 }
 
 @keyframes App-logo-spin {
@@ -48,7 +52,3 @@
     transform: rotate(360deg);
   }
 }
-Footer{
-  margin-top: auto;
-}
-

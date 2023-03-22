@@ -1,18 +1,17 @@
-
 import React from "react";
 import aboutImg from "../../assets/linux.png";
 
 const styles = {
-  content: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    margin: '0 auto',
+  style: {
+    display: "flex",
+    justifyContent: "center",
+    margin: "0 auto",
     borderRadius: 100,
     width: "40%",
-    background: "orange",
-    padding: 20,
-    position: 'relative',
-    backgroundSize: 'contain'
+    background: "#e8eaf6",
+    paddingTop: 20,
+    paddingBottom: 20,
+    position: "relative",
   },
 };
 
@@ -20,7 +19,7 @@ function Portfolio() {
   return (
     <div style={styles.portfolio}>
       <div className="container"></div>
-      <div className="card" style={styles.content}>
+      <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <img src={aboutImg} alt="React" />
@@ -37,7 +36,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card" style={styles.content}>
+      <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <img src={aboutImg} alt="React" />
@@ -54,7 +53,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card" style={styles.content}>
+      <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <img src={aboutImg} alt="React" />

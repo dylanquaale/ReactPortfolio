@@ -4,8 +4,10 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className='col'>
+       <h1 className="headerName">Dylan Quaale</h1>
     <ul className="nav nav-tabs">
-      <h1>Dylan Quaale</h1>
+      
       <li className="nav-item">
         <a
           href="#about"
@@ -43,6 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 
