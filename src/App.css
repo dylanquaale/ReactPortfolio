@@ -36,6 +36,10 @@
   justify-content: right;
 }
 
+.nav h1 {
+  justify-content: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

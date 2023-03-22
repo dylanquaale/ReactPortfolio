@@ -1,8 +1,9 @@
 import React from 'react';
+import aboutImg from '../../assets/linux.png'
 
 const styles = {
     about: {
-      margin: 150,
+      margin: 200,
       background: '#e8eaf6',
       borderRadius: 50,
       padding: 1
@@ -18,7 +19,7 @@ const styles = {
       padding: '0 20px',
     },
     content: {
-      padding: 20,
+      padding: 40,
     },
   };
 
@@ -26,8 +27,7 @@ function About() {
     return (
       <div style={styles.about}>
         <div style={styles.heading}>About Me</div>
-        <img src= {"./assets/linux.png"}  alt="React" />
-        
+        <img src= {aboutImg}  alt="React" />
         <div style={styles.content}>
           `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
