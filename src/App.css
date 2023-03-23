@@ -49,6 +49,12 @@ Footer{
   padding: 40px;
 }
 
+#socialImg{
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+}
+
 
 @keyframes App-logo-spin {
   from {

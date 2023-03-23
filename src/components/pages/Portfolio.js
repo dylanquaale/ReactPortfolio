@@ -1,6 +1,11 @@
 import React from "react";
 import aboutImg from "../../assets/linux.png";
 import socialImg from "../../assets/socialMedia.png";
+import movieImg from "../../assets/cinema.png";
+import techImg from "../../assets/techy.jpeg";
+import calImg from "../../assets/cal.png";
+import ticketImg from "../../assets/ticket.jpeg";
+import textImg from "../../assets/textedit.png";
 
 const styles = {
   style: {
@@ -20,7 +25,7 @@ function Portfolio() {
       <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Social Network</h5>
-          <img src={socialImg} alt="React" />
+          <img  src={socialImg} alt="React" id="socialImg" />
           <p className="card-text">
             Users can create thoughts and add reactions to one another. API for
             a social network web application where users can share their
@@ -42,7 +47,7 @@ function Portfolio() {
       <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Reelzgoodreviews</h5>
-          <img src={aboutImg} alt="React" />
+          <img src={movieImg} alt="React" id="socialImg" />
           <p className="card-text">
             We created an app that allows a user to create an account and login
             using that account. Once that user is logged in they have the
@@ -62,7 +67,7 @@ function Portfolio() {
       <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Tech_Blog</h5>
-          <img src={aboutImg} alt="React" />
+          <img src={techImg} alt="React" id="socialImg" />
           <p className="card-text">
             This Tech Blog is a place where fellow tech communities can come to
             chat about anything and everything. You must signup before
@@ -82,7 +87,7 @@ function Portfolio() {
       <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Calander</h5>
-          <img src={aboutImg} alt="React" />
+          <img src={calImg} alt="React" id="socialImg" />
           <p className="card-text">
             Created this for you to easily plan your work day. Your schedule
             will display the current date at the top of the page. Below will
@@ -102,7 +107,7 @@ function Portfolio() {
       <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Eventster</h5>
-          <img src={aboutImg} alt="React" />
+          <img src={ticketImg} alt="React" id="socialImg" />
           <p className="card-text">
             Evenster was created to allow the user to input in a city and
             receive a list of events and the weather in and around the area. THe
@@ -126,7 +131,7 @@ function Portfolio() {
       <div className="card" style={styles.style}>
         <div className="card-body">
           <h5 className="card-title">Text_Editor</h5>
-          <img src={aboutImg} alt="React" />
+          <img src={textImg} alt="React" id="socialImg"/>
           <p className="card-text">
             This a text editor that will allow users to save text that they do
             not wish to loose. AS A developer I WANT to create notes or code
