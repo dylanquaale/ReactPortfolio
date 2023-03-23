@@ -1,27 +1,37 @@
 import React from "react";
 
-const styles = {};
+const styles = {
+  resume: { 
+  display: 'flex',
+  margin: '5%',
+  justifyContent: 'center'
+}
+};
 // need to add one link for attached resume
 function About() {
   return (
-    <div style={styles.about}>
-      <div style={styles.heading}>About Me</div>
+    <div style={styles.resume}>
+    <div className="card">
+      <div className="card-body">
+   
       <div style={styles.content}>
-        <ul class="list-group">
+        <ul className="list-group">
           <a
             href="https://www.linkedin.com/in/dylan-quaale-2885881a4/"
-            class="list-group-item list-group-item-action"
+            className="list-group-item list-group-item-action"
           >
-            Dapibus ac facilisis in
+            Click For My Resume
           </a>
 
-          <li class="list-group-item disabled">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-          <li class="list-group-item">Porta ac consectetur ac</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li className="list-group-item disabled">React</li>
+          <li className="list-group-item">Node.js</li>
+          <li className="list-group-item">MongoDB</li>
+          <li className="list-group-item">MySQL</li>
+          <li className="list-group-item">NoSQL</li>
         </ul>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
