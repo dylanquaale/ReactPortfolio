@@ -1,12 +1,25 @@
-import React from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const [documentWidth, setDocumentWidth] = useState(null)
+  const documentReference = useRef(null)
+  useEffect(() => {
+    const handleResize = () => {
+      const newDocumentWidth = documentReference.current.offsetWidth
+      setDocumentWidth(newDocumentWidth)
+    }
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    console.log(documentWidth)
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  } , [documentWidth])
   return (
-
-    <div className='col'>
+    <div className='col' ref={documentReference}>
        <h1 className="headerName">Dylan Quaale</h1>
     <ul className="nav nav-tabs">
-
+    <div className={documentWidth < 580 ? "d-flex flex-column-reverse bd-highlight" : "d-flex flex-direction-reverse bd-highlight"}>
       <li className="nav-item">
         <a
           href="#about"
@@ -43,10 +56,10 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      </div>
     </ul>
     </div>
   );
 }
-
 
 export default NavTabs;
