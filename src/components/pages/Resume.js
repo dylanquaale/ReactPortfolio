@@ -1,25 +1,29 @@
-import React from 'react';
+import React from "react";
 
-export default function Resume() {
+const styles = {};
+// need to add one link for attached resume
+function About() {
   return (
-    <div>
-      <h1>Resume Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div style={styles.about}>
+      <div style={styles.heading}>About Me</div>
+      <div style={styles.content}>
+        <ul class="list-group">
+          <a
+            href="https://www.linkedin.com/in/dylan-quaale-2885881a4/"
+            class="list-group-item list-group-item-action"
+          >
+            Dapibus ac facilisis in
+          </a>
+
+          <li class="list-group-item disabled">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
     </div>
   );
-  
 }
+
+export default About;
