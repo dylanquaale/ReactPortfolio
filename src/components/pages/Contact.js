@@ -6,7 +6,7 @@ const styles = {
       margin: 'auto',
       padding: 70,
       borderRadius: 30,
-      background: '#e8eaf6',
+      background: '#F9FAFA',
     },
     button: {
       padding: 30

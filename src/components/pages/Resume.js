@@ -28,6 +28,7 @@ function About() {
           <li className="list-group-item">MongoDB</li>
           <li className="list-group-item">MySQL</li>
           <li className="list-group-item">NoSQL</li>
+          <li className="list-group-item">JavaScript</li>
         </ul>
       </div>
     </div>
@@ -37,3 +38,4 @@ function About() {
 }
 
 export default About;
+ 

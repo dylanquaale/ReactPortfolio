@@ -1,6 +1,6 @@
 
 import React from 'react';
-import aboutImg from '../../assets/linux.png'
+import aboutImg from '../../assets/me.png'
 
 const styles = {
     about: {
@@ -15,7 +15,7 @@ const styles = {
     heading: {
       borderRadius: 10,
       margin: 50,
-      background: '#3f51b5',
+      background: '#0A66C2',
       minHeight: 50,
       lineHeight: 3.5,
       fontSize: '1.2rem',
@@ -25,7 +25,7 @@ const styles = {
     },
     content: {
       padding: 40,
-      background: "#e8eaf6",
+      background: "#F9FAFA",
       
     },
   };

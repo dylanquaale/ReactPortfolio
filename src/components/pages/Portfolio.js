@@ -1,5 +1,4 @@
 import React from "react";
-import aboutImg from "../../assets/linux.png";
 import socialImg from "../../assets/socialMedia.png";
 import movieImg from "../../assets/cinema.png";
 import techImg from "../../assets/techy.jpeg";
@@ -10,7 +9,7 @@ import textImg from "../../assets/textedit.png";
 const styles = {
   style: {
     display: "flex",
-    background: "#e8eaf6",
+    background: "#F9FAFA",
     margin: "10%",
   },
  cardBody: {
