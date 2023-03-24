@@ -55,6 +55,14 @@ Footer{
   border-radius: 10px;
 }
 
+#resume{
+  display: flex;
+  width: 30%;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @keyframes App-logo-spin {
   from {

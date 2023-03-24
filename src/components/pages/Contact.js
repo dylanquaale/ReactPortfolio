@@ -3,8 +3,8 @@ import { Form, Col, Button  } from 'react-bootstrap'
 
 const styles = {
     contact: {
-      margin: 70,
-      padding: 50,
+      margin: 'auto',
+      padding: 70,
       borderRadius: 30,
       background: '#e8eaf6',
     },
@@ -16,7 +16,7 @@ const styles = {
 
   function Contact() {
     return (
-      <div style={styles.contact}>
+      <div style={styles.contact} id="resume">
        <Form>
             <Form.Group as={Col} controlId="formGridName">
                 <Form.Label>Name:</Form.Label>

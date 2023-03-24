@@ -11,8 +11,8 @@ const styles = {
 function About() {
   return (
     <div style={styles.resume}>
-    <div className="card">
-      <div className="card-body">
+    <div className="card" >
+      <div className="card-body" >
    
       <div style={styles.content}>
         <ul className="list-group">
