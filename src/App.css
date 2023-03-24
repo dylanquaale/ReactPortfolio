@@ -57,14 +57,32 @@ Footer{
   border-radius: 10px;
 }
 
+#cardLink{
+  background: #0A66C2;
+  border-radius: 2px;
+  color: white;
+  padding: 5px;
+
+}
+
+#btn{
+margin-top: 4px;
+}
+
+#cardContainer{
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
 #resume{
   display: flex;
-  width: 30%;
+  width: 60%;
   height: 60%;
   align-items: center;
   justify-content: center;
 }
-
 
 @keyframes App-logo-spin {
   from {

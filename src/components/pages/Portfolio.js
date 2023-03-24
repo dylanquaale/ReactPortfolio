@@ -10,19 +10,21 @@ const styles = {
   style: {
     display: "flex",
     background: "#F9FAFA",
-    margin: "10%",
+    margin: "3%",
+    marginLeft: '25%',
+    marginRight: '25%',
   },
  cardBody: {
-  padding: 100
+  padding: 10,
  }
 };
 
 function Portfolio() {
   return (
     <div style={styles.portfolio}>
-      <div className="container"></div>
-      <div className="card" style={styles.style}>
-        <div className="card-body">
+      <div className="container" ></div>
+      <div className="card" style={styles.style} id="cardContainer" >
+        <div className="card-body" id="outerContainer">
           <h5 className="card-title">Social Network</h5>
           <img  src={socialImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -36,15 +38,15 @@ function Portfolio() {
           </p>
           <a
             href="https://github.com/dylanquaale/Social_Network"
-            className="card-link"
+            className="card-link" id= "cardLink"
           >
             Click Me
           </a>
         </div>
       </div>
 
-      <div className="card" style={styles.style}>
-        <div className="card-body">
+      <div className="card" style={styles.style} id="cardContainer">
+        <div className="card-body" >
           <h5 className="card-title">Reelzgoodreviews</h5>
           <img src={movieImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -56,14 +58,14 @@ function Portfolio() {
           </p>
           <a
             href="https://peaceful-plateau-13571.herokuapp.com/"
-            className="card-link"
+            className="card-link" id= "cardLink"
           >
             Click Me
           </a>
         </div>
       </div>
 
-      <div className="card" style={styles.style}>
+      <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body">
           <h5 className="card-title">Tech_Blog</h5>
           <img src={techImg} alt="React" id="socialImg" />
@@ -77,13 +79,13 @@ function Portfolio() {
           </p>
           <a
             href="https://github.com/dylanquaale/tech-blog"
-            className="card-link"
+            className="card-link" id= "cardLink"
           >
             Click Me
           </a>
         </div>
       </div>
-      <div className="card" style={styles.style}>
+      <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body">
           <h5 className="card-title">Calander</h5>
           <img src={calImg} alt="React" id="socialImg" />
@@ -97,13 +99,13 @@ function Portfolio() {
           </p>
           <a
             href="https:https://dylanquaale.github.io/workDay-Calander/"
-            className="card-link"
+            className="card-link" id= "cardLink"
           >
             Click Me
           </a>
         </div>
       </div>
-      <div className="card" style={styles.style}>
+      <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body">
           <h5 className="card-title">Eventster</h5>
           <img src={ticketImg} alt="React" id="socialImg" />
@@ -121,13 +123,13 @@ function Portfolio() {
           </p>
           <a
             href="https://salenaoneill.github.io/eventster/"
-            className="card-link"
+            className="card-link" id= "cardLink"
           >
             Click Me
           </a>
         </div>
       </div>
-      <div className="card" style={styles.style}>
+      <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body">
           <h5 className="card-title">Text_Editor</h5>
           <img src={textImg} alt="React" id="socialImg"/>
@@ -140,7 +142,7 @@ function Portfolio() {
           </p>
           <a
             href="https://nameless-fortress-37560.herokuapp.com/"
-            className="card-link"
+            className="card-link" id= "cardLink"
           >
             Click Me
           </a>
