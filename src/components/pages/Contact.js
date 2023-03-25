@@ -4,27 +4,17 @@ import validator from "validator";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-// Form, Col,
-// require('dotenv').config()
-
 const styles = {
   contact: {
-    // margin: '10%',
-    // marginLeft: '20%',
-    // marginRight: '20%',
-    // marginTop: 20,
-    // padding: 70,
     borderRadius: 20,
     background: "#F9FAFA",
     padding: "30px 0",
     marginTop: "10%",
-    // width: "50%",
   },
   button: {
     padding: 30,
   },
 };
-
 
 const Contact = () => {
   const [emailError, setEmailError] = useState("");
@@ -86,4 +76,3 @@ const Contact = () => {
 
 export default Contact;
 
-// added defaultValue and onBlur

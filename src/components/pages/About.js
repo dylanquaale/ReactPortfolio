@@ -5,10 +5,11 @@ const styles = {
   about: {
     display: "flex",
     borderRadius: 50,
-    padding: 2,
+    padding: 9,
     width: 380,
     margin: "auto",
-    marginTop: 20,
+    marginTop: 30,
+    marginBottom: 30,
     background: '#F5F5F5'
   },
   heading: {
@@ -23,10 +24,10 @@ const styles = {
   },
   content: {
     padding: 40,
-    background: "#F9FAFA",
+    background: "#F5F5F5",
   },
 };
-
+// F9FAFA
 function About() {
   return (
     <div style={styles.about}>
