@@ -9,6 +9,7 @@ const styles = {
     width: 380,
     margin: "auto",
     marginTop: 20,
+    background: '#F5F5F5'
   },
   heading: {
     borderRadius: 10,

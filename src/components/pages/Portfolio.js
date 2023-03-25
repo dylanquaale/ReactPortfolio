@@ -13,10 +13,12 @@ const styles = {
     margin: "3%",
     marginLeft: "25%",
     marginRight: "25%",
+    boxShadow: "0 2px 15px -3px rgba(249,250,250,1),0 10px 20px -2px rgba(255,255,255,0) "
+   
   },
   cardBody: {
     padding: 10,
-    background: "#F9FAFA",
+    // background: "#F9FAFA",
   },
 };
 
@@ -45,7 +47,7 @@ function Portfolio() {
       </div>
 
       <div className="card" style={styles.style} id="cardContainer">
-        <div className="card-body">
+        <div className="card-body" id="outerContainer">
           <h5 className="card-title">Reelzgoodreviews</h5>
           <img src={movieImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -64,9 +66,8 @@ function Portfolio() {
           </a>
         </div>
       </div>
-
       <div className="card" style={styles.style} id="cardContainer">
-        <div className="card-body">
+        <div className="card-body" id="outerContainer">
           <h5 className="card-title">Tech_Blog</h5>
           <img src={techImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -86,8 +87,9 @@ function Portfolio() {
           </a>
         </div>
       </div>
+
       <div className="card" style={styles.style} id="cardContainer">
-        <div className="card-body">
+        <div className="card-body" id="outerContainer">
           <h5 className="card-title">Calander</h5>
           <img src={calImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -108,7 +110,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="card" style={styles.style} id="cardContainer">
-        <div className="card-body">
+        <div className="card-body" id="outerContainer">
           <h5 className="card-title">Eventster</h5>
           <img src={ticketImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -133,7 +135,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="card" style={styles.style} id="cardContainer">
-        <div className="card-body">
+        <div className="card-body" id="outerContainer">
           <h5 className="card-title">Text_Editor</h5>
           <img src={textImg} alt="React" id="socialImg" />
           <p className="card-text">
