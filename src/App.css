@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #F5F5F5;
 }
 
 .App-link {
@@ -59,7 +59,7 @@ Footer{
 
 #cardLink{
   background: #0A66C2;
-  border-radius: 2px;
+  border-radius: 9px;
   color: white;
   padding: 5px;
 
@@ -74,15 +74,45 @@ margin-top: 4px;
   height: 50%;
   border-radius: 10px;
   margin-left: 10px;
+  background: #F5F5F5;
 }
 
-#resume{
-  display: flex;
-  width: 60%;
-  height: 60%;
-  align-items: center;
+#formGridName{
+ 
+  width: 50%;
   justify-content: center;
+  margin: auto;
+  padding: 3px;
+  border-radius: 5px;
 }
+
+#containerFd{
+  background: #F5F5F5;
+  width: 100%;
+}
+
+#userEmail{
+  
+  width: 50%;
+  justify-content: center;
+  margin: 1%;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#formGridQuery{
+
+  width: 50%;
+  justify-content: center;
+  margin:auto;
+  border-radius: 5px;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
 
 @keyframes App-logo-spin {
   from {

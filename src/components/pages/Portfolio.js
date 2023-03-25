@@ -11,34 +11,33 @@ const styles = {
     display: "flex",
     background: "#F9FAFA",
     margin: "3%",
-    marginLeft: '25%',
-    marginRight: '25%',
+    marginLeft: "25%",
+    marginRight: "25%",
   },
- cardBody: {
-  padding: 10,
- }
+  cardBody: {
+    padding: 10,
+    background: "#F9FAFA",
+  },
 };
 
 function Portfolio() {
   return (
-    <div style={styles.portfolio}>
-      <div className="container" ></div>
-      <div className="card" style={styles.style} id="cardContainer" >
+    <div className="container" id="containerFd">
+      <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body" id="outerContainer">
           <h5 className="card-title">Social Network</h5>
-          <img  src={socialImg} alt="React" id="socialImg" />
+          <img src={socialImg} alt="React" id="socialImg" />
           <p className="card-text">
             Users can create thoughts and add reactions to one another. API for
             a social network web application where users can share their
             thoughts, react to friends thoughts, and create a friend list. You
             use Express.js for routing, a MongoDB database, and the Mongoose
-            ODM. In addition to using the Express.js and Mongoose packages, you
-            may also optionally use a JavaScript date library of your choice or
-            the native JavaScript Date object to format timestamps.
+            ODM. In addition to using the Express.
           </p>
           <a
             href="https://github.com/dylanquaale/Social_Network"
-            className="card-link" id= "cardLink"
+            className="card-link"
+            id="cardLink"
           >
             Click Me
           </a>
@@ -46,7 +45,7 @@ function Portfolio() {
       </div>
 
       <div className="card" style={styles.style} id="cardContainer">
-        <div className="card-body" >
+        <div className="card-body">
           <h5 className="card-title">Reelzgoodreviews</h5>
           <img src={movieImg} alt="React" id="socialImg" />
           <p className="card-text">
@@ -58,7 +57,8 @@ function Portfolio() {
           </p>
           <a
             href="https://peaceful-plateau-13571.herokuapp.com/"
-            className="card-link" id= "cardLink"
+            className="card-link"
+            id="cardLink"
           >
             Click Me
           </a>
@@ -79,7 +79,8 @@ function Portfolio() {
           </p>
           <a
             href="https://github.com/dylanquaale/tech-blog"
-            className="card-link" id= "cardLink"
+            className="card-link"
+            id="cardLink"
           >
             Click Me
           </a>
@@ -99,7 +100,8 @@ function Portfolio() {
           </p>
           <a
             href="https:https://dylanquaale.github.io/workDay-Calander/"
-            className="card-link" id= "cardLink"
+            className="card-link"
+            id="cardLink"
           >
             Click Me
           </a>
@@ -123,7 +125,8 @@ function Portfolio() {
           </p>
           <a
             href="https://salenaoneill.github.io/eventster/"
-            className="card-link" id= "cardLink"
+            className="card-link"
+            id="cardLink"
           >
             Click Me
           </a>
@@ -132,7 +135,7 @@ function Portfolio() {
       <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body">
           <h5 className="card-title">Text_Editor</h5>
-          <img src={textImg} alt="React" id="socialImg"/>
+          <img src={textImg} alt="React" id="socialImg" />
           <p className="card-text">
             This a text editor that will allow users to save text that they do
             not wish to loose. AS A developer I WANT to create notes or code
@@ -142,7 +145,8 @@ function Portfolio() {
           </p>
           <a
             href="https://nameless-fortress-37560.herokuapp.com/"
-            className="card-link" id= "cardLink"
+            className="card-link"
+            id="cardLink"
           >
             Click Me
           </a>
