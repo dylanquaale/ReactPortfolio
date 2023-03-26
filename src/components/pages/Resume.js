@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const styles = {
   resume: { 
   display: 'flex',
@@ -16,8 +17,10 @@ function About() {
    
       <div style={styles.content}>
         <ul className="list-group">
+       
           <a
-            href="https://www.linkedin.com/in/dylan-quaale-2885881a4/"
+          
+            href="https://drive.google.com/file/d/1MDudanGjsYmHca2vbVq5FejxbRRs3vKv/view?usp=share_link"
             className="list-group-item list-group-item-action"
           >
             Click For My Resume

@@ -9,7 +9,7 @@ import textImg from "../../assets/textedit.png";
 const styles = {
   style: {
     display: "flex",
-    background: "#F9FAFA",
+    // background: "#F9FAFA",
     margin: "3%",
     marginLeft: "25%",
     marginRight: "25%",
@@ -18,7 +18,7 @@ const styles = {
   },
   cardBody: {
     padding: 10,
-    // background: "#F9FAFA",
+    // background: "#F0F0F0",
   },
 };
 

@@ -10,7 +10,7 @@ const styles = {
     margin: "auto",
     marginTop: 30,
     marginBottom: 30,
-    background: '#F5F5F5'
+    // background: '#F5F5F'
   },
   heading: {
     borderRadius: 10,
@@ -24,7 +24,7 @@ const styles = {
   },
   content: {
     padding: 40,
-    background: "#F5F5F5",
+    background: "#F0F0F0",
   },
 };
 // F9FAFA
