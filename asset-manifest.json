@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/github.io/ReactPortfolio/static/css/main.c0146c37.css",
-    "main.js": "/github.io/ReactPortfolio/static/js/main.250623ce.js",
-    "static/js/787.a2cb61a6.chunk.js": "/github.io/ReactPortfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/me.png": "/github.io/ReactPortfolio/static/media/me.dd6f73d8bc0da2a91f09.png",
-    "static/media/fa-solid-900.ttf": "/github.io/ReactPortfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
-    "static/media/cinema.png": "/github.io/ReactPortfolio/static/media/cinema.f7ed6e410bbafbc7ad08.png",
-    "static/media/fa-brands-400.ttf": "/github.io/ReactPortfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
-    "static/media/fa-solid-900.woff2": "/github.io/ReactPortfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
-    "static/media/socialMedia.png": "/github.io/ReactPortfolio/static/media/socialMedia.a83f9ea372950491afc6.png",
-    "static/media/fa-brands-400.woff2": "/github.io/ReactPortfolio/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
-    "static/media/techy.jpeg": "/github.io/ReactPortfolio/static/media/techy.e8b618b6b732912bd65b.jpeg",
-    "static/media/fa-regular-400.ttf": "/github.io/ReactPortfolio/static/media/fa-regular-400.146404900f7550a9719d.ttf",
-    "static/media/cal.png": "/github.io/ReactPortfolio/static/media/cal.5e4360ca7db71f022881.png",
-    "static/media/fa-regular-400.woff2": "/github.io/ReactPortfolio/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
-    "static/media/textedit.png": "/github.io/ReactPortfolio/static/media/textedit.7fe82081fc7c28c8dfd0.png",
-    "static/media/fa-v4compatibility.ttf": "/github.io/ReactPortfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
-    "static/media/fa-v4compatibility.woff2": "/github.io/ReactPortfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
-    "index.html": "/github.io/ReactPortfolio/index.html",
-    "main.c0146c37.css.map": "/github.io/ReactPortfolio/static/css/main.c0146c37.css.map",
-    "main.250623ce.js.map": "/github.io/ReactPortfolio/static/js/main.250623ce.js.map",
-    "787.a2cb61a6.chunk.js.map": "/github.io/ReactPortfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/ReactPortfolio/static/css/main.9c41b7af.css",
+    "main.js": "/ReactPortfolio/static/js/main.fa942f6a.js",
+    "static/js/787.a2cb61a6.chunk.js": "/ReactPortfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/me.png": "/ReactPortfolio/static/media/me.dd6f73d8bc0da2a91f09.png",
+    "static/media/fa-solid-900.ttf": "/ReactPortfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/cinema.png": "/ReactPortfolio/static/media/cinema.f7ed6e410bbafbc7ad08.png",
+    "static/media/fa-brands-400.ttf": "/ReactPortfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/ReactPortfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/socialMedia.png": "/ReactPortfolio/static/media/socialMedia.a83f9ea372950491afc6.png",
+    "static/media/fa-brands-400.woff2": "/ReactPortfolio/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/techy.jpeg": "/ReactPortfolio/static/media/techy.e8b618b6b732912bd65b.jpeg",
+    "static/media/fa-regular-400.ttf": "/ReactPortfolio/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/cal.png": "/ReactPortfolio/static/media/cal.5e4360ca7db71f022881.png",
+    "static/media/fa-regular-400.woff2": "/ReactPortfolio/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/textedit.png": "/ReactPortfolio/static/media/textedit.7fe82081fc7c28c8dfd0.png",
+    "static/media/fa-v4compatibility.ttf": "/ReactPortfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/ReactPortfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.9c41b7af.css.map": "/ReactPortfolio/static/css/main.9c41b7af.css.map",
+    "main.fa942f6a.js.map": "/ReactPortfolio/static/js/main.fa942f6a.js.map",
+    "787.a2cb61a6.chunk.js.map": "/ReactPortfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0146c37.css",
-    "static/js/main.250623ce.js"
+    "static/css/main.9c41b7af.css",
+    "static/js/main.fa942f6a.js"
   ]
 }
