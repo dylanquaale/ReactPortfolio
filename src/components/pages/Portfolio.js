@@ -17,6 +17,7 @@ const styles = {
   },
   cardBody: {
     padding: 10,
+    background: "#F0F0F0"
   },
 };
 

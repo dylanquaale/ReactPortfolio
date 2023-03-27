@@ -1,25 +1,38 @@
 # Getting Started with Create React App
-hello
+https://dylanquaale.github.io/ReactPortfolio/
+
+https://github.com/dylanquaale/ReactPortfolio
+
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Credits](#credits)
 - [Description](#bracket-description)
 - [Contribution](#contritbution)
 - [Questions](#questions)
 
 ### Installation
+npm i,
 
-### Usage
+gh-pages,
+
+validator,
+
+npx-create-react,
+
+bootstrap
 
 ### Credits
 
 Collabs:
 
+Tutor
+
 ASK BCS
 
 ### Description
+
+I am able to use this react portfolio to present to future employers to showcase what I have learned in React. I am able to display some of my most proud projects I have done, give them an about me section, and also a place to where employers can view my resume and also contact me. Links to me social medias are in my footer easy to find me!
 
 ### Contribution
 

@@ -35,8 +35,11 @@ function About() {
         <img src={aboutImg} className="card-img-top" alt="aboutImg" />
         <div className="card-body">
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Hi my name is Dylan, and I am about to be a graduate of a full stack development bootcamp!
+            I am super excited for the next part of my tech journey.
+            I am currently a realtor however always having a desire for tech I finally took the leap to start my dream.
+            My love for technology goes back as long as I can remember. I have always had a "knack" with tech I guess you could say.
+            Super excited for this next chapter!
           </p>
         </div>
       </div>
