@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://github.com/dylanquaale/ReactPortfolio",
+  "private": false,
+  "homepage": "https://github.io/dylanquaale/ReactPortfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@testing-library/jest-dom": "^5.16.5",
