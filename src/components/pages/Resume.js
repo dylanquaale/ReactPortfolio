@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const styles = {
   resume: { 
   display: 'flex',
@@ -8,7 +7,7 @@ const styles = {
   justifyContent: 'center'
 }
 };
-// need to add one link for attached resume
+
 function About() {
   return (
     <div style={styles.resume}>

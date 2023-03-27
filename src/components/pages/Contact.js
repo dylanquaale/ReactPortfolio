@@ -26,16 +26,7 @@ const Contact = () => {
       setEmailError("Enter valid Email!");
     } 
   };
-  // const [nameError, setNameError] = useState("");
-  // const validateName = (e) => {
-  //   var name = e.target.value;
-
-  //   if (validator.isEmail(name)) {
-  //     setNameError("Name :)");
-  //   } else {
-  //     setNameError("Enter Name!");
-  //   } 
-  // };
+  
   return (
     <Container>
       <Row className="justify-content-center">

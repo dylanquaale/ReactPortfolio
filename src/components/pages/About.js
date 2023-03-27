@@ -10,7 +10,6 @@ const styles = {
     margin: "auto",
     marginTop: 30,
     marginBottom: 30,
-    // background: '#F5F5F'
   },
   heading: {
     borderRadius: 10,
@@ -27,7 +26,7 @@ const styles = {
     background: "#F0F0F0",
   },
 };
-// F9FAFA
+
 function About() {
   return (
     <div style={styles.about}>
