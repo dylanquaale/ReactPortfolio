@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/dylanquaale/ReactPortfolio/static/css/main.68d86a7c.css",
+    "main.js": "/dylanquaale/ReactPortfolio/static/js/main.b3b51883.js",
+    "static/js/787.a2cb61a6.chunk.js": "/dylanquaale/ReactPortfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/me.png": "/dylanquaale/ReactPortfolio/static/media/me.dd6f73d8bc0da2a91f09.png",
+    "static/media/fa-solid-900.ttf": "/dylanquaale/ReactPortfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/cinema.png": "/dylanquaale/ReactPortfolio/static/media/cinema.f7ed6e410bbafbc7ad08.png",
+    "static/media/fa-brands-400.ttf": "/dylanquaale/ReactPortfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/dylanquaale/ReactPortfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/socialMedia.png": "/dylanquaale/ReactPortfolio/static/media/socialMedia.a83f9ea372950491afc6.png",
+    "static/media/fa-brands-400.woff2": "/dylanquaale/ReactPortfolio/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/techy.jpeg": "/dylanquaale/ReactPortfolio/static/media/techy.e8b618b6b732912bd65b.jpeg",
+    "static/media/fa-regular-400.ttf": "/dylanquaale/ReactPortfolio/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/cal.png": "/dylanquaale/ReactPortfolio/static/media/cal.5e4360ca7db71f022881.png",
+    "static/media/fa-regular-400.woff2": "/dylanquaale/ReactPortfolio/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/textedit.png": "/dylanquaale/ReactPortfolio/static/media/textedit.7fe82081fc7c28c8dfd0.png",
+    "static/media/fa-v4compatibility.ttf": "/dylanquaale/ReactPortfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/dylanquaale/ReactPortfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/dylanquaale/ReactPortfolio/index.html",
+    "main.68d86a7c.css.map": "/dylanquaale/ReactPortfolio/static/css/main.68d86a7c.css.map",
+    "main.b3b51883.js.map": "/dylanquaale/ReactPortfolio/static/js/main.b3b51883.js.map",
+    "787.a2cb61a6.chunk.js.map": "/dylanquaale/ReactPortfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68d86a7c.css",
+    "static/js/main.b3b51883.js"
+  ]
+}
