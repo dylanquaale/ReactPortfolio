@@ -26,13 +26,13 @@ function Portfolio() {
     <div className="container" id="containerFd">
       <div className="card" style={styles.style} id="cardContainer">
         <div className="card-body" id="outerContainer">
-          <h5 className="card-title">Social Network</h5>
+          <h5 className="card-title">Team Final</h5>
           <img src={socialImg} alt="React" id="socialImg" />
           <p className="card-text">
         
           </p>
           <a
-            href="https://github.com/dylanquaale/Social_Network"
+            href="https://arcane-savannah-38796.herokuapp.com/"
             className="card-link"
             id="cardLink"
           >
